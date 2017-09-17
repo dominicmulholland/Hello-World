@@ -25,19 +25,13 @@ function checkAll()
 </script>
 
 <body>
-     <table width="100%" cellpadding="4" cellspacing="0">
-    <tr valign="TOP">
-      <td>
-   <form name="myForm" enctype="multipart/form-data" target="_self">
+   <form name="myForm" id="firstForm" enctype="multipart/form-data" target="_self">
     <tr><td><p>Select to delete all<input type="checkbox" name="selAll" onmouseup="checkAll()" /></p></td></tr>
     <tr><td><p>Select to delete Link</p><input type="checkbox" name="del" value="0" /></td>
     <td><p>Select to delete Link</p><input type="checkbox" name="del" value="1" /></td>
     <td><p>Select to delete Link</p><input type="checkbox" name="del" value="2" /></td>
     <td><p>Select to delete Link</p><input type="checkbox" name="del" value="3" /></td></tr>
    </form>
-         </td>
-    </tr>
-  </table>
 </body>
 
 </html>
